@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"  content="This website informe about me and my word experience">
+    <meta name="keyword"      content="I used HTML5 CSS3 and JavaScript and Jquery">
+    <meta name="author"       content="Mr. Anand Saini">
+    <meta name="viewport"     content="width=device-width,  initial scale-1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+<script src="js/jquery-3.6.0.min.js"> </script>
+
+</head>
+<body>
+
+    <nav>
+        <div class="inner flex">
+        <div class="name">
+            <h1><span>A</span>NAND<span>.</span></h1>
+        </div>
+
+        <div class="button">
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+        <ul class="slide flex">
+         <li><a href="#banner">HOME</a></li>
+         <li><a href="#about">ABOUT</a></li>
+         <li><a href="#projects">PROJECTS</a></li>
+         <li><a href="#contact">CONTACT</a></li>
+            
+        </div>
+     </div>
+    </nav>
+
+
+    <header  id="banner">
+           
+           <div class="banner" >
+               <h1>ANAND KUMAR SAINI</h1>
+               <h3>FRONTEND WEB DEVELOPER</h3>
+               <a href="img/Anand Kumar saini.pdf" target="_blank">DOWNLOAD CV</a>
+           </div>
+    </header>
+
+    <section class="about" id="about">
+        <h1>ABOUT ME</h1>
+        <hr>
+        <div class="inner flex">
+            <div class="img">
+                <img src="img/banner.jpg">
+            </div>
+            <div class="detail">
+                <h1>HELLO!</h1>
+                <h2><span>I am</span> Anand saini</h2>
+                <p>My focus to User-Interactive and mobile Responsive Websites.</p>
+                <h3><span>Name :</span> Anand saini</h3>
+                <h3><span>Phone :</span> +918209439197</h3>
+                <h3><span>Email :</span> anandsaini9152@gmail.com</h3>
+                <h3><span>Address :</span> Sargoth near by Reengus 332404 sikar</h3>
+                <h4>CURRENT SKILL SETS</h4>
+
+                <div class="skill flex-2">
+                    <div class="type">HTML5</div>
+                    <div class="type">CSS3</div>
+                    <div class="type">BOOTSTRAP</div>
+                    <div class="type">sass</div>
+                    <div class="type">javascript</div>
+                    <div class="type">jquery</div>
+                    <div class="type">photoshop</div>
+                    <div class="type">github</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+              <div class="inner">
+                  <h1>MY PROJECTS</h1>
+                  <hr>
+                  <div class="project flex">
+                      <div class="image">
+                          <img src="img/banner.jpg">
+                      </div>
+                      <div class="summary" data-aos="slide-left" data-aos-duration="1200">
+                          <h1>TOMATO RESTAURANT</h1>
+                          <p class="other"><span class="fa fa-arrow-right"></span> HTML5 , SCSS , JAVASCRIPT , JQUERY</p>
+                          <p><span class="fa fa-arrow-right"></span> Multipage Websites </p>
+                          <p><span class="fa fa-arrow-right"></span> Text animation on homepage using CSS animation</p>
+                          <p><span class="fa fa-arrow-right"></span> different and customized Owl Carousel.</p>
+                          <p><span class="fa fa-arrow-right"></span> Image gallery using CSS Grid System.</p>
+                          <button class="info">CLICK HERE</button>
+                        </div>
+                  </div>
+              </div>
+    </section>
+
+    <section class="contact" id="contact">
+              <div class="inner">
+                  <h1>CONTACT ME</h1>
+                  <hr>
+                  <form>
+                      <input type="text"  name=" your-name" placeholder="Your Name"> <br>
+                      <input type="email"  name=" your-email" placeholder="Your Email"> <br>
+                      <textarea> Your Message</textarea>
+                  </form> 
+                <button class="info">SEND MESSAGE</button>                                              
+            </div>
+    </section>
+
+    <footer>
+        <div class="inner flex">
+        <h2><span>A</span>NAND<span>.</span></h2>
+        <div class="icon">
+              <a href="https://github.com/webAnandsaini" target="_blank" class="border">GITHUB</a>
+              <a href="https://www.linkedin.com/in/anand-kumar-b775171b3/" target="_blank">LINKEDIN</a>
+        </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+
+     AOS.init(
+       
+             
+         );
+         
+         $(".button").click(function(){
+
+            $(".slide").slideToggle(500);
+         });
+
+    </script>
+
+    
+</body>
+</html>
