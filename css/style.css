@@ -146,7 +146,8 @@ nav .button{
 .banner a:hover{
     background-color: blue;
     color:#fff;
-    border:3px solid #fff;
+    border:3px solid rgb(40, 205, 18);
+    border-radius: 60%;
 }
 
 
@@ -299,6 +300,11 @@ nav .button{
      background:none; 
      margin-top:30px;
      margin-left:20px;   
+}
+
+.summary button a{
+    text-decoration: none;
+    color:#fff
 }
 
 .summary button:hover, .contact button:hover{
