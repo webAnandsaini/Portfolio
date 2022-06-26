@@ -393,6 +393,10 @@ footer h2 span{
     border-right:2px solid #fff;
 }
 
+.icon a:hover{
+    color:rgb(208, 41, 135);
+}
+
 @media only screen and (max-width:1200px){
     .inner{
         max-width:90%;
